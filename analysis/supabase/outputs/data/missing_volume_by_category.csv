@@ -1,0 +1,10 @@
+category,total_markets,valid_volume,missing_volume,missing_pct,valid_pct
+Sports,48326,4789,43537,90.09,9.91
+Crypto,11512,1915,9597,83.37,16.63
+Esports,4298,1048,3250,75.62,24.38
+Other / Unclassified,3057,1112,1945,63.62,36.38
+Economics & Business,785,304,481,61.27,38.73
+Weather & Natural Disasters,3889,1867,2022,51.99,48.01
+Entertainment,224,151,73,32.59,67.41
+Technology & AI,171,122,49,28.65,71.35
+Politics & Geopolitics,1075,838,237,22.05,77.95
