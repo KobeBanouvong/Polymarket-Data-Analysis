@@ -1,0 +1,11 @@
+psycopg2-binary
+requests
+python-dotenv
+duckdb
+pandas
+numpy
+sqlalchemy
+pyarrow
+matplotlib
+certifi
+truststore

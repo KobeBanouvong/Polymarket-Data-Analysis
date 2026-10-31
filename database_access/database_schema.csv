@@ -1,0 +1,56 @@
+table_name,column_name,data_type,is_nullable
+events,slug,text,NO
+events,ticker,text,YES
+events,title,text,NO
+events,description,text,YES
+events,start_date,timestamp with time zone,YES
+events,end_date,timestamp with time zone,YES
+events,active,boolean,YES
+events,closed,boolean,YES
+events,archived,boolean,YES
+events,neg_risk,boolean,YES
+events,created_at,timestamp with time zone,YES
+events,updated_at,timestamp with time zone,YES
+events,synced_at,timestamp with time zone,NO
+market_hourly,market_slug,text,NO
+market_hourly,hour,timestamp with time zone,NO
+market_hourly,open,numeric,YES
+market_hourly,high,numeric,YES
+market_hourly,low,numeric,YES
+market_hourly,close,numeric,YES
+market_hourly,volume,numeric,YES
+market_hourly,trade_count,integer,YES
+markets,slug,text,NO
+markets,title,text,NO
+markets,condition_id,text,YES
+markets,synced_at,bigint,NO
+markets,start_date,timestamp with time zone,YES
+markets,end_date,timestamp with time zone,YES
+markets,active,boolean,YES
+markets,closed,boolean,YES
+markets,archived,boolean,YES
+markets,created_at,timestamp with time zone,YES
+markets,updated_at,timestamp with time zone,YES
+markets,resolution_source,text,YES
+markets,neg_risk,boolean,YES
+markets,enable_order_book,boolean,YES
+markets,last_trade_price,numeric,YES
+markets,best_bid,numeric,YES
+markets,best_ask,numeric,YES
+markets,volume_clob,numeric,YES
+markets,liquidity_clob,numeric,YES
+markets,volume_24hr,numeric,YES
+markets,volume_1wk,numeric,YES
+markets,volume_1mo,numeric,YES
+markets,token_ids,jsonb,YES
+markets,outcomes,jsonb,YES
+markets,event_slug,text,YES
+resolutions,market_slug,text,NO
+resolutions,resolved_yes,boolean,NO
+resolutions,price_at_close,numeric,NO
+resolutions,price_24h_before,numeric,YES
+resolutions,resolved_at,timestamp with time zone,YES
+resolutions,uma_resolution_status,text,YES
+wallet_pseudonym_map,real_wallet,bytea,NO
+wallet_pseudonym_map,pseudo_wallet,bytea,NO
+wallet_pseudonym_map,created_at,timestamp with time zone,NO

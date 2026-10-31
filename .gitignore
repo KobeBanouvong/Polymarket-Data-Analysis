@@ -1,0 +1,21 @@
+
+# Database credentials
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Downloaded datasets
+data/
+*.parquet
+
+# Temporary files
+.DS_Store
+Thumbs.db

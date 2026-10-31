@@ -1,0 +1,7 @@
+column_name,data_type,is_nullable
+ts_ms,int64,True
+asset_id,large_string,True
+market,large_string,True
+side,large_string,True
+price,double,True
+size,double,True
